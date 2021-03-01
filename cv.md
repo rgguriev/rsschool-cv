@@ -46,7 +46,7 @@
      *specialization: react
      
 # Skills:
-    * a little JS, github, CSS preprocessors Sass/Scss
+    * a little JS, github, CSS preprocessors Sass/Scss, little bit React
 
 # Code examples:
 
