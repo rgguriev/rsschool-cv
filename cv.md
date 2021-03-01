@@ -4,7 +4,7 @@
 -----------------------     -----------------------
 1. github: https://github.com/rgguriev
 2. discord: baasebjorn#4124
-3. mail: <romanguryev@gmail.com>
+3. mail: <rgguryev@gmail.com>
 4. telegram: Roman Guryev
 5. city: Rzeszów
 6. country: Poland
