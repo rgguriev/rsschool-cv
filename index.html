@@ -4,35 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
   <title>CV Roman Guryev</title>
 </head>
 <body>
   <div class="wrapper">
-    <h1>Roman Guryev</h1>
-    <section class="contacts">
-      <h2>Contacts</h2>
-      <div class="contacts-content">
-        <ul>
-          <li>github: https://github.com/rgguriev</li>
-          <li>discord: baasebjorn#4124</li>
-          <li>mail: rgguryev@gmail.com
-          </li>
-          <li>telegram: Roman Guryev</li>
-          <li>city: Rzeszów</li>
-          <li>country: Poland</li>
-        </ul>
-      </div>
-    </section>
-    <section class="About me">
-      <h2>About me</h2>
-      <div class="contacts-content">
-        <div class="photo">
-          <img src="./photo_2021-03-01_19-19-03.jpg" alt="my photo">
+    <header>
+      <article class="header__description">
+        <h3>RS-School <br> 2021q1 <br>*HTML-CSS-Task*</h3>
+      </article>
+      <section class="header__contacts">
+        <div>
+          <h1>Roman <br> Guryev</h1>
         </div>
-        <div class="contact-goals">
-          <h3>My goals:</h3>
-          <div>
+        <div class="contacts-content text">
+          <h2>Contacts</h2>
+          <div class="">
+            <ul>
+              <li>github: <a href="https://github.com/rgguriev">https://github.com/rgguriev</a></li>
+              <li>discord: <a href="https://discord.com/channels/@me/818518154879172659/818518213771264000">baasebjorn#4124</a></li>
+              <li>mail: <a href="mailto:rgguryev@gmail.com">rgguryev@gmail.com</a>
+              </li>
+              <li>telegram: <a href="https://t.me/roman_guryev">roman_guryev</a></li>
+              <li>city: Rzeszów, Poland</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- semantic -->
+    </header>
+    <main>
+      <section class="about">
+        
+        <div class="photo">
+          <img src="./1.png" alt="my photo">
+        </div>
+        <div>
+          <h2>About me:</h2>
+        </div>
+        <div class="about__goals">
+          <div class="about__goals-title title">
+            <h3>My goals:</h3>
+          </div>
+          <div class="about__goals-text text">
             <ul>
               <li>Learning to think like a programmer</li>
               <li>Learn to solve complex and compound problems</li>
@@ -41,79 +56,171 @@
             </ul>
           </div>
         </div>
-        <div class="contact-expects">
-          <h3>What do I expect from the courses:</h3>
-          <div>
+        <div class="about__expects">
+          <div class="about__expects-title title">
+            <h3>What do I expect from the courses:</h3>
+          </div>
+          <div class="about__expects-text text">
             <ul>
-              <li>good understanding of functional programming</li>
-              <li>gaining development experience and teamwork</li>
-              <li>acquaintance and further work with the frameworks React, Redux</li>
-              <li>boost my English</li>
+              <li>Good understanding of functional programming</li>
+              <li>Gaining development experience and teamwork</li>
+              <li>Acquaintance and further work with the frameworks React, Redux</li>
+              <li>Boost my English</li>
             </ul>
           </div>
         </div>
-        <div class="contact-strengths">
-          <h3>My strengths:</h3>
-          <div>
+        <div class="about__strengths">
+          <div class="about__strengths-title title">
+            <h3>My strengths:</h3>
+          </div>
+          <div class="about__strengths-text text">
             <ul>
               <li>I'm curious.</li>
-              <li>I am a fast learner and adaptable</li>
+              <li>I am a fast learner and adaptable, I'm not afraid to take on difficult things</li>
+              <li>I am neat and I get things done</li>
               <li>sometimes great ideas come up.</li>
               <li>I'm persistent</li>
               <li>I know how to google!</li>
             </ul>
           </div>
         </div>
-        <div class="contact-Education">
-          <h3>Education:</h3>
-          <div>
+        <div class="about__education">
+          <article class="about__education-title title">
+            <h3>Education:</h3>
+          </article>
+          <!-- <div class="about__education-dates">
             <div>
-              <p>2014-2018</p>
-              <p>: <b>Bachelor, Logistics</b>; SBMT BSU, Minsk, Belarus
+              <p>2014 - 2018</p>
+            </div>
+            <div>
+              <p>2018 - 2020</p>
+            </div>
+            <div>
+              <p>2020 - ????</p>
+            </div>
+          </div> -->
+          <div class="about__education-text text">
+            <div>
+              <p>2014 - 2018 : <b>Bachelor, Logistics</b>; SBMT BSU, Minsk, Belarus
                 <i>specialization: procurement logistics and warehouse equipment automation</i>
               </p>
             </div>
             <div>
-              <p>2018-2020 (not finished)</p>
-              <p>: <b>Master, Logistics</b>; International University MITSO, Minsk, Belarus
+              <p>2018 - 2020 : <b>Master, Logistics</b>; International University MITSO, Minsk, Belarus
                 <i>specialization: warehouse management systems</i>
               </p>
             </div>
             <div>
-              <p>2020-???</p>
-              <p>: <b>Front-end developer</b>; Self-study in google
+              <p>2020 - ???? : <b>Front-end developer</b>; Self-study in google
                 <i>specialization: react</i>
               </p>
             </div>
           </div>
         </div>
+      </section>
+      <section class="experience-text">
+        <div>
+          <h2>Experience:</h2>
+          <p>This is not a real resume. I have almost no work experience, but I will add information here later. Right now it's a
+          blank text. But since there is nothing to write, we can go over the points of the assignment, let's go:
+          The layout is valid, I checked at <a href="https://validator.w3.org/">https://validator.w3.org/</a> .The layout is semantic, I used a couple of tags - header,
+          footer, section, article (this one), main and figure ( in wishes). Headings h1-h3. Css-styles added. Content in the
+          block is centered. Image is not distorted, added attribute. Contacts and list of skills in the list ul > li. All
+          relevant information added. Repository requirements met, trust me.
+          </p>
+        </div>
+      </section>
+      <section class="cards">
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Skills:</h2>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>a little JS</li>
+              <li>github</li>
+              <li>CSS preprocessors Sass/Scss</li>
+              <li>little bit React</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-header">
+            <h2>Code examples:</h2>
+          </div>
+          <div class="card-body">
+            <p>console.log('Hello world!')</p>
+            <p>alert('warning!')</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Experience:</h2>
+          </div>
+          <div class="card-body">
+            <p>I know how to <b>write bold text</b> and <i>italic text</i> in markdown</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2 >English:</h2>
+          </div>
+          <div class="card-body">
+              <ul>
+                <li>C1 in speech comprehension</li>
+                <li>A2 in communication</li>
+              </ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Wishes:</h2>
+          </div>
+          <div class="card-body">
+            <p>Blessings on your successful completion of the course. Good luck</p>
+
+    <!-- figure -->
+
+            <figure class="figure">
+              <img src="https://user-images.githubusercontent.com/60221719/109435469-aa0b9400-7a2b-11eb-956e-fd28b511ed8d.png"
+                alt="Blessing">
+              <figcaption>this is figcaption</figcaption>
+            </figure>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <h2>Something:</h2>
+          </div>
+          <div class="card-body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae natus minima officiis quo sint provident quos, quae libero non maiores.
+            </p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+      <div class="footer__links">
+        <div><a href="https://github.com/rgguriev"><img src="/github-logo.svg" alt=""></a></div>
+        <div><a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt=""></a></div>
+        <div><a href="https://youtu.be/fzZNj0vqXmc"><img src="/youtube-logo.svg" alt="">
+          
+        </a></div>
+        <div class="footer__links-year"><a href="">2021</a></div>
       </div>
-    </section>
-    <section class="Skills">
-      <h2>Skills:</h2>
-      <p>* a little JS, github, CSS preprocessors Sass/Scss, little bit React</p>
-    </section>
-    <section class="Code examples">
-      <h2>Code examples:</h2>
-      <p>I know how to <b>write bold text</b> and <i>italic text</i> in markdown</p>
-      <p>Blessings on your successful completion of the course. Good luck</p>
-      <img src="https://user-images.githubusercontent.com/60221719/109435469-aa0b9400-7a2b-11eb-956e-fd28b511ed8d.png"
-        alt="Blessing">
-    </section>
-    <section class="Experience">
-      <h2>Experience:</h2>
-      <p>console.log("Hello world")</p>
-    </section>
-    <section class="English">
-      <h2>English</h2>
-      <div>
-        <ul>
-          <li>C1 in speech comprehension</li>
-          <li>A2 in communication</li>
-        </ul>
-      </div>
-    </section>
+    </footer>
   </div>
-  
+  <link rel="stylesheet" href="style.css" type="text/css">
 </body>
 </html>
